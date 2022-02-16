@@ -1,0 +1,446 @@
+/* CSS code requested by module09/Awax/home.html file; CSS properties to HTML code */
+
+/* @@@ responsive menu icon hidden on computer screens @@@ */
+#MenuOpener {
+    display: none;
+}
+
+/* ##### START OF RESPONSIVE BLOCK FOR TABLET ##### */
+@media (max-width: 800px) and (min-width: 450px) {
+    /* START OF RESPONSIVE MENU BAR (TABLET) */
+    #LogoSite {
+        margin-left: 30px;
+    }
+    
+    #MenuOpener {
+        /* @@@ responsive menu icon on tablet and mobile screens @@@ */
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+    
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+
+    #Menu ul {
+        flex-direction: column;
+    }
+
+    #Menu li a {
+        font-weight: bold;
+        height: 80px;
+        font-size: 27px;
+        margin-left: 50px;
+        border: 0;
+    }
+
+    #Menu li#ActMenu a {
+        border: 0;
+        color: #b28756;
+    }
+    /* END OF RESPONSIVE MENU BAR (TABLET) */
+
+    /* START OF RESPONSIVE SECTION "ABOUT US" (TABLET) */
+    #AboutUsBodySpot {
+        flex-direction: column;
+    }
+
+    #AboutUsBodySpotLeft {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    #AboutUsBodySpotRight {
+        width: auto;
+        justify-content: center;
+    }
+    /* END OF RESPONSIVE SECTION "ABOUT US" (TABLET) */
+
+    /* START OF RESPONSIVE SECTION "SERVICES" (TABLET) */
+    #ServicesBody {
+        flex-wrap: wrap;
+    }
+
+    .ServicesBodySpot {
+        min-width: 50%;
+    }
+
+    .ServicesBodySpot:first-child {
+        border-left: 0;
+    }
+
+    .ServicesBodySpot:last-child {
+        border-right: 0;
+    }
+    /* END OF RESPONSIVE SECTION "SERVICES" (TABLET) */
+
+    /* START OF RESPONSIVE SECTION "OUR TEAM" (TABLET) */
+    .OurTeamBody {
+        width: auto;
+    }
+    
+    .OurTeamBoxes:nth-child(3) {
+        display: none;
+    }
+    /* END OF RESPONSIVE SECTION "OUR TEAM" (TABLET) */
+
+    /* START OF RESPONSIVE BUSINESS AREA (TABLET) */
+    .CompaniesFrameLogo:nth-child(1), .CompaniesFrameLogo:nth-child(6) {
+        display: none;
+    }
+    /* END OF RESPONSIVE BUSINESS AREA (TABLET) */
+
+    /* START OF RESPONSIVE MAP AREA (TABLET) */
+    #MapSpot {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #MapSpotInfo {
+        width: auto;
+    }
+
+    .MapSpotInfoItem {
+        margin-bottom: 20px;
+    }
+
+    .MapSpotInfoItem:last-child {
+        margin-bottom: 0;
+    }
+    /* END OF RESPONSIVE MAP AREA (TABLET) */
+
+    /* START OF RESPONSIVE AREA "FOOTER" (TABLET) */
+    #FooterBoxLeft, #FooterBoxCenter, #FooterBoxRight {
+        width: 320px;
+    }
+
+    #FooterBoxRight {
+        margin-top: 30px;
+    }
+
+    #FooterFrame input {
+        width: 210px;
+    }
+
+    #FooterBoxCenter p {
+        padding-right: 0;
+        line-height: 20px;
+    }
+
+    #FooterBoxRight .SendMessage button {
+        padding: 16px 50px;
+    }
+    /* END OF RESPONSIVE AREA "FOOTER (TABLET) */
+}
+/* ##### END OF RESPONSIVE BLOCK FOR TABLET ##### */
+
+/* ##### START OF RESPONSIVE BLOCK FOR MOBILE ##### */
+@media (max-width: 450px) {
+    /* START OF RESPONSIVE MENU BAR (MOBILE) */
+    #LogoSite {
+        margin-left: 30px;
+    }
+    
+    #MenuOpener {
+        /* @@@ responsive menu icon on tablet and mobile screens @@@ */
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+    
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 10;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 80vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+
+    #Menu ul {
+        flex-direction: column;
+    }
+
+    #Menu li a {
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-left: 50px;
+        border: 0;
+    }
+
+    #Menu li#ActMenu a {
+        border: 0;
+        color: #b28756;
+    }
+    /* END OF RESPONSIVE MENU BAR (MOBILE) */
+
+    /* START OF RESPONSIVE SECTION "HOME" (MOBILE) */
+    #Home h1 {
+        font-size: 30px;
+    }
+
+    #Home h2 {
+        font-size: 17px;
+    }
+    /* END OF RESPONSIVE SECTION "HOME" (MOBILE) */
+
+    /* START OF RESPONSIVE SECTION "ABOUT US" (MOBILE) */
+    #AboutUsBodySpot {
+        flex-direction: column;
+    }
+
+    #AboutUsBodySpotLeft {
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    #AboutUsBodySpotRight {
+        width: auto;
+        justify-content: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    #AboutUsBodySpotRight img {
+        width: 100%;
+    }
+    /* END OF RESPONSIVE SECTION "ABOUT US" (MOBILE) */
+
+    /* START OF RESPONSIVE SECTION "SERVICES" (MOBILE) */
+    #ServicesBody {
+        flex-wrap: wrap;
+    }
+
+    .ServicesBodySpot {
+        min-width: 100%;
+        border-left: 0;
+        border-right: 0;
+    }
+    /* END OF RESPONSIVE SECTION "SERVICES" (MOBILE) */
+
+    /* START OF RESPONSIVE SECTION "OUR PROJECTS" (MOBILE) */
+    #OurProjectsBodyFilter {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .OurProjectsBodyPhotoArea {
+        width: 300px;
+        height: 190px;
+    }
+    /* END OF RESPONSIVE SECTION "OUR PROJECTS" (MOBILE) */
+
+    /* START OF RESPONSIVE SECTION "OUR TEAM" (MOBILE) */
+    .OurTeamBody {
+        width: auto;
+    }
+
+    .OurTeamBoxes:nth-child(1), .OurTeamBoxes:nth-child(3) {
+        display: none;
+    }
+    /* END OF RESPONSIVE SECTION "OUR TEAM" (MOBILE) */
+
+    /* START OF RESPONSIVE SECTION "HAPPY CLIENTS" (MOBILE) */
+    .HappyClientsBody p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* END OF RESPONSIVE SECTION "HAPPY CLIENTS" (MOBILE) */
+
+    /* START OF RESPONSIVE BUSINESS AREA (MOBILE) */
+    .CompaniesFrameLogo:nth-child(1), .CompaniesFrameLogo:nth-child(2),
+    .CompaniesFrameLogo:nth-child(5), .CompaniesFrameLogo:nth-child(6) {
+        display: none;
+    }
+    /* END OF RESPONSIVE BUSINESS AREA (MOBILE) */
+
+    /* START OF RESPONSIVE "FEATURES" AREA (MOBILE) */
+    .PremiumBodyFrame {
+        width: auto;
+    }
+
+    #PremiumBodyBooks {
+        padding-right: 0;
+        padding-left: 30px;
+        width: 300px;
+        height: auto;
+    }
+
+    #PremiumBodySide {
+        width: auto;
+        margin: auto;
+    }
+
+    .PremiumBodyFeature {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    .PremiumBodyImages {
+        margin-right: 10px;
+    }
+    /* END OF RESPONSIVE "FEATURES" AREA (MOBILE) */
+
+    /* START OF RESPONSIVE SECTION "SOME FACTS" (MOBILE) */
+    .SomeFactsBodyBoxes:last-child {
+        display: none;
+    }
+    /* END OF RESPONSIVE SECTION "SOME FACTS" (MOBILE) */
+
+    /* START OF RESPONSIVE SOCIAL NETWORK AREA (MOBILE) */
+    #SocialNetFrame {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    #SocialNetFrameLeft, #SocialNetFrameRight {
+        min-height: 60px;
+    }
+
+    #SocialNetFrameLeft h2 {
+        margin-left: 10px;
+        margin-right: 0;
+    }
+    
+    .SocialNetLogo {
+        width: 50px;
+        flex-direction: column;
+    }
+
+    .SocialNetLogo img {
+        width: 30px;
+        height: auto;
+    }
+
+    .SocialNetLogo h5 {
+        margin: 0;
+    }
+    /* END OF RESPONSIVE SOCIAL NETWORK AREA (MOBILE) */
+
+    /* START OF RESPONSIVE SECTION "CONTACT US" (MOBILE) */
+    #ContactUsBody form {
+        width: auto;
+        text-align: center;
+    }
+
+    #ContactUsBoxUp input, #ContactUsBoxDown input, #ContactUsBoxDown textarea {
+        width: 320px;
+    }
+
+    #ContactUsBoxUp [name=User] {
+        margin-right: 0;
+    }
+    
+    #ContactUsBoxUp [name=Contact] {
+        margin-left: 0;
+    }
+    /* END OF RESPONSIVE SECTION "CONTACT US" (MOBILE) */
+
+    /* START OF RESPONSIVE MAP AREA (MOBILE) */
+    #MapSpot {
+        width: auto;
+    }
+    
+    #MapArea, #MapSpot {
+        padding: 0;
+    }
+
+    #MapArea {
+        padding-bottom: 250px;
+    }
+
+    #MapSpotInfo {
+        width: auto;
+    }
+
+    .MapSpotInfoItem {
+        margin-bottom: 20px;
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .MapSpotInfoItem:last-child {
+        margin-bottom: 0;
+    }
+
+    .MapSpotItemLogo {
+        width: 25px;
+        height: 25px;
+    }
+    /* END OF RESPONSIVE MAP AREA (MOBILE) */
+
+    /* START OF RESPONSIVE AREA "FOOTER (MOBILE) */
+    footer {
+        padding-top: 20px;
+    }
+
+    #FooterBoxLeft {
+        order: 2;
+        width: auto;
+    }
+
+    #FooterBoxCenter {
+        order: 3;
+        width: 320px;
+    }
+
+    #FooterBoxRight {
+        order: 1;
+        width: 320px;
+    }
+
+    #FooterBoxCenter p {
+        padding-right: 0;
+        font-size: 12px;
+        line-height: 20px;
+        height: 250px;
+    }
+
+    #FooterBoxLeftUp {
+        justify-content: center;
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+
+    #FooterBoxLeftUp a {
+        width: 28px;
+        height: 28px;
+        border-radius: 14px;
+        margin-right: 7px;
+    }
+
+    #FooterBoxLeftUp img {
+        width: 15px;
+        height: auto;
+    }
+    
+    #FooterBoxLeftDown {
+        position: relative;
+        z-index: 10;
+        top: 230px;
+        left: 80px;
+    }
+
+    #FooterFrame input {
+        width: 210px;
+    }
+
+    #FooterBoxRight .SendMessage button {
+        padding: 16px 50px;
+    }
+    /* END OF RESPONSIVE AREA "FOOTER (MOBILE) */
+}
+/* ##### END OF RESPONSIVE BLOCK FOR MOBILE ##### */
